@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Bootstrap Form</h2>
+      <form action="index.html" method="POST" role="form">
+        <table>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xl-6 col-xs-12">
+                <label for="fname">First Name:</label>
+                <br />
+                <input type="text" name="fname" class="form-control" />
+              </div>
+              <div class="col-xl-6 col-xs-12">
+                <label for="lname">Last Name:</label>
+                <br />
+                <input type="text" name="lname" class="form-control" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xl-6 col-xs-12">
+                <label for="email">Email:</label>
+                <br />
+                <input type="email" name="email" class="form-control" />
+              </div>
+              <div class="col-xl-6 col-xs-12">
+                <label for="password">Password:</label>
+                <br />
+                <input type="password" name="password" class="form-control" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xl-6 col-xs-12">
+                <label for="phone">Phone:</label>
+                <br />
+                <input type="tel" name="phone" class="form-control" />
+              </div>
+              <div class="col-xl-6 col-xs-12">
+                <label for="range">Range:</label>
+                <br />
+                <input type="range" name="range" class="form-control" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xl-4 col-xs-12">
+                <label for="date">Date:</label>
+                <br />
+                <input type="date" name="date" class="form-control" />
+              </div>
+              <div class="col-xl-4 col-xs-12">
+                <label for="time">Time:</label>
+                <br />
+                <input type="time" name="time" class="form-control" />
+              </div>
+              
+                <div class="col-xl-4 col-xs-12">
+                  <label for="datetime">DateTime:</label>
+                  <br />
+                  <input
+                    type="datetime-local"
+                    name="datetime"
+                    class="form-control"
+                  />
+                </div>
+                </div>
+              
+              <div class="row">
+                <div class="col-xl-12">
+                  <label for="comment">Message:</label>
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    id="comment"
+                    name="text"
+                  ></textarea>
+                </div>
+              </div>
+             
+                  <button type="submit" class="btn btn-primary" id="toasin">Submit</button>
+                
+            </div>
+          </div>
+        </table>
+      </form>
+    </div>
+
+  
+     
+  
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
